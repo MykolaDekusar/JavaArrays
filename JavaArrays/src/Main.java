@@ -11,7 +11,21 @@ public class Main {
 		for(int i=0; i<sonoArray.length;i++) {
 			System.out.println(sonoArray[i]);
 		}
+		//inizializziamo la stringa int
+		int[] numeri= {1,2,5,3,8};
+		for(int i=0;i<numeri.length;i++) {
+			System.out.println(numeri[i]);
+		}
+		//abbiamo anche un altro modo per inizializzare un array
+		//indico il tipo del contenuto dell'array 
+		double[] decimali = new double[3]; //indico la lunghezza dell'array tra le []
+		//assegno i valori 
+		decimali[0]= 0.23;
+		decimali[2]= 0.54;
 		
+		for(int i=0;i<decimali.length;i++) {
+			System.out.println(decimali[i]);
+		}
 	}
 
 }
